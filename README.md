@@ -10,3 +10,5 @@
 A modbus tool for windows platform. 
 
 ![snapshot](https://github.com/user-attachments/assets/5775b8c6-e8ce-4c36-bfc4-22d4e6a5e79b)
+
+This project is written in Qt. If you do not want to compile this project, you can directly use the `ModbusTool.exe` file, which is a 64-bit executable file and can be opened directly.
