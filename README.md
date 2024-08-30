@@ -1,8 +1,11 @@
 
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/66afaad5-2555-4904-84c1-0a5f66318b2d" alt="" width="180" />
-    <h2>ModbusTool</h2>
+    <img src="https://github.com/user-attachments/assets/66afaad5-2555-4904-84c1-0a5f66318b2d" alt="" width="100"/>
+    <h1>ModbusTool</h1>
 </div>
+<br/>
+
+
 
 A modbus tool for windows platform. 
 
