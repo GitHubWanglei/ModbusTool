@@ -1,6 +1,6 @@
 
 <div align="center">
-    <img src="[https://example.com/image.png](https://github.com/user-attachments/assets/66afaad5-2555-4904-84c1-0a5f66318b2d)" alt="" width="500" />
+    <img src="https://github.com/user-attachments/assets/66afaad5-2555-4904-84c1-0a5f66318b2d" alt="" width="500" />
 </div>
 
 ![logo](https://github.com/user-attachments/assets/66afaad5-2555-4904-84c1-0a5f66318b2d)
