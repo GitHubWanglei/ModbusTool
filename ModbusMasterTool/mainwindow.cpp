@@ -30,7 +30,6 @@ MainWindow::MainWindow(QWidget *parent)
     QObject::connect(ui->readBtn, SIGNAL(clicked()), this, SLOT(readRegister()));
     QObject::connect(ui->writeBtn, SIGNAL(clicked()), this, SLOT(writeRegister()));
     QObject::connect(this->ui->port, QOverload<int>::of(&QComboBox::currentIndexChanged), this, [this](int index){
-        // this->portName = this->portNames.at(index);
         qDebug() << index;
         if (index > 0 && index < this->portNames.size()) {
             this->portName = this->portNames.at(index);
@@ -204,7 +203,6 @@ void MainWindow::connectBtnClicked() {
         QString newPortName = prefix.append(portName.toStdString().c_str());
         qDebug("new 串口号：%s", qPrintable(newPortName));
         mb = modbus_new_rtu(newPortName.toStdString().c_str(), baudRate_int, parity_char, dataBit_int, stopBit_int);
-        // modbus_set_slave(this->mb, 2);
         int res = modbus_connect(mb);
         if (res == -1) {
             QMessageBox::critical(this, "提示", "打开失败！");
