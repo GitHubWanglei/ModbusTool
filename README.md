@@ -4,8 +4,7 @@
 </div>
 <br/>
 
-此项目使用 Qt Creator 开发，如果不想编译，可以直接使用编译打包好的可执行文件`ModbusTool.exe`即可.<br/>
-可使用此工具直接对从机进行参数读写，便于调试.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;此项目使用 Qt Creator 开发，如果不想编译，可以直接使用编译打包好的可执行文件`ModbusTool.exe`(64位)即可，如需32位，则需要自行编译打包.<br/>
 
 ![snapshot](https://github.com/user-attachments/assets/5775b8c6-e8ce-4c36-bfc4-22d4e6a5e79b)
 
