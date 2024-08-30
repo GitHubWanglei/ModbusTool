@@ -206,6 +206,7 @@ void MainWindow::connectBtnClicked() {
         int res = modbus_connect(mb);
         if (res == -1) {
             QMessageBox::critical(this, "提示", "打开失败！");
+            this->timerId = startTimer(1000);
             return;
         }
         this->portName = portName;
